@@ -1,4 +1,4 @@
-package TugasPosttest;
+package PostTest1;
 
 
 import javax.swing.JOptionPane;
