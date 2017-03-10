@@ -352,6 +352,7 @@ nik.setText("");
 pekerjaan.setText("");
 tempat.setText("");
 rt.setText("");
+alamat.setText("");
 kelurahan.setText("");
 kecamatan.setText("");
 jTextArea1.setText(""); 
