@@ -34,6 +34,7 @@ public class tugas1 extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
+        jLabel19 = new javax.swing.JLabel();
         visimisi = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
@@ -90,8 +91,6 @@ public class tugas1 extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("Snap ITC", 0, 24)); // NOI18N
         jLabel16.setText("Selamat Datang di ");
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("D:\\Tugas\\Semester 4\\Praktikum Visual\\mangrove-forest-tarakan.jpg")); // NOI18N
-
         jTextArea2.setEditable(false);
         jTextArea2.setBackground(new java.awt.Color(255, 255, 102));
         jTextArea2.setColumns(20);
@@ -100,10 +99,13 @@ public class tugas1 extends javax.swing.JFrame {
         jTextArea2.setText("Kota Tarakan adalah sebuah kota yang terletak di sebelah utara Kalimantan, kota ini sangat dekat dengan perbatasan antara Indonesia dan Malaysia. Sehingga tidak heran apabila banyak produk-produk industri dari Malaysia yang masuk ke Tarakan atau dijual di Tarakan.\n\nSebagai sebuah kota yang terletak di ujung utara Kalimantan Indonesia, Kota Tarakan ternyata menyimpan banyak potensi wisata yang menarik. Seperti halnya beberapa kota di Kalimantan, Kota Tarakan juga memiliki sejarah panjang mulai dari kerajaan yang pernah berdiri di sana serta sejarah pendaratan tentara penjajah seperti Belanda dan Jepang.\n\nKota Tarakan merupakan kota terkaya ke-17 di Indonesia. Kota ini memiliki ladang minyak serta tambang yang besar, hal ini pulalah yang membuat Belanda dan Jepang mendarat di Kota Tarakan.\n");
         jScrollPane3.setViewportView(jTextArea2);
 
+        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\RizkyKiwa\\Documents\\NetBeansProjects\\VISUAL_B_1515015055_160497\\src\\PostTest3\\mangrove-forest-tarakan.jpg")); // NOI18N
+
         javax.swing.GroupLayout homeLayout = new javax.swing.GroupLayout(home);
         home.setLayout(homeLayout);
         homeLayout.setHorizontalGroup(
             homeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(homeLayout.createSequentialGroup()
                 .addGroup(homeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(homeLayout.createSequentialGroup()
@@ -114,10 +116,11 @@ public class tugas1 extends javax.swing.JFrame {
                         .addGroup(homeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(homeLayout.createSequentialGroup()
                                 .addGap(10, 10, 10)
+                                .addComponent(jLabel19)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel17))
                             .addComponent(jLabel15))))
-                .addContainerGap(164, Short.MAX_VALUE))
-            .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING)
+                .addContainerGap(182, Short.MAX_VALUE))
         );
         homeLayout.setVerticalGroup(
             homeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -126,10 +129,12 @@ public class tugas1 extends javax.swing.JFrame {
                 .addComponent(jLabel16)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel15)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(11, 11, 11)
+                .addComponent(jLabel19)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel17)
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 834, Short.MAX_VALUE))
         );
 
         jtengah.add(home, "card2");
@@ -149,11 +154,11 @@ public class tugas1 extends javax.swing.JFrame {
         visimisi.setLayout(visimisiLayout);
         visimisiLayout.setHorizontalGroup(
             visimisiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 624, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 642, Short.MAX_VALUE)
         );
         visimisiLayout.setVerticalGroup(
             visimisiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1014, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1148, Short.MAX_VALUE)
         );
 
         jtengah.add(visimisi, "card3");
@@ -176,7 +181,7 @@ public class tugas1 extends javax.swing.JFrame {
         informasi.setLayout(informasiLayout);
         informasiLayout.setHorizontalGroup(
             informasiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 624, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 642, Short.MAX_VALUE)
             .addGroup(informasiLayout.createSequentialGroup()
                 .addGap(208, 208, 208)
                 .addComponent(jLabel6)
@@ -189,7 +194,7 @@ public class tugas1 extends javax.swing.JFrame {
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 610, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(365, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jtengah.add(informasi, "card4");
@@ -214,7 +219,7 @@ public class tugas1 extends javax.swing.JFrame {
             .addGroup(tentangLayout.createSequentialGroup()
                 .addGap(203, 203, 203)
                 .addComponent(jLabel18)
-                .addContainerGap(244, Short.MAX_VALUE))
+                .addContainerGap(262, Short.MAX_VALUE))
             .addComponent(jScrollPane4)
         );
         tentangLayout.setVerticalGroup(
@@ -222,7 +227,7 @@ public class tugas1 extends javax.swing.JFrame {
             .addGroup(tentangLayout.createSequentialGroup()
                 .addComponent(jLabel18)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 986, Short.MAX_VALUE))
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 1120, Short.MAX_VALUE))
         );
 
         jtengah.add(tentang, "card5");
@@ -232,17 +237,17 @@ public class tugas1 extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 3, 24)); // NOI18N
         jLabel11.setText("TUJUAN WISATA");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("D:\\Tugas\\Semester 4\\Praktikum Visual\\1.jpg")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\RizkyKiwa\\Documents\\NetBeansProjects\\VISUAL_B_1515015055_160497\\src\\PostTest3\\1.jpg")); // NOI18N
 
         jLabel9.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel9.setText("Pantai Amal Tarakan");
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("D:\\Tugas\\Semester 4\\Praktikum Visual\\4.JPG")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\RizkyKiwa\\Documents\\NetBeansProjects\\VISUAL_B_1515015055_160497\\src\\PostTest3\\4.JPG")); // NOI18N
 
         jLabel12.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel12.setText("Grand Tarakan Mall");
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("D:\\Tugas\\Semester 4\\Praktikum Visual\\mangrove-forest-tarakan.jpg")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\RizkyKiwa\\Documents\\NetBeansProjects\\VISUAL_B_1515015055_160497\\src\\PostTest3\\mangrove-forest-tarakan.jpg")); // NOI18N
 
         jLabel14.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel14.setText("Hutan Mangrove Tarakan");
@@ -274,7 +279,7 @@ public class tugas1 extends javax.swing.JFrame {
                     .addGroup(wisataLayout.createSequentialGroup()
                         .addGap(35, 35, 35)
                         .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 543, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
         wisataLayout.setVerticalGroup(
             wisataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -293,7 +298,7 @@ public class tugas1 extends javax.swing.JFrame {
                 .addComponent(jLabel13)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel14)
-                .addContainerGap(118, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jtengah.add(wisata, "card6");
@@ -379,7 +384,7 @@ public class tugas1 extends javax.swing.JFrame {
                     .addGroup(jatasLayout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 604, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
         jatasLayout.setVerticalGroup(
             jatasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -418,7 +423,7 @@ public class tugas1 extends javax.swing.JFrame {
             .addGroup(jbawahLayout.createSequentialGroup()
                 .addGap(222, 222, 222)
                 .addComponent(jLabel5)
-                .addContainerGap(273, Short.MAX_VALUE))
+                .addContainerGap(291, Short.MAX_VALUE))
         );
         jbawahLayout.setVerticalGroup(
             jbawahLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -644,6 +649,7 @@ public class tugas1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
