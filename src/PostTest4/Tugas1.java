@@ -175,6 +175,11 @@ public int Hasil ;
 
         jasa.add(reguler);
         reguler.setText("Reguler");
+        reguler.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                regulerActionPerformed(evt);
+            }
+        });
 
         jasa.add(express);
         express.setText("Express");
@@ -417,6 +422,10 @@ public int Hasil ;
     private void prosesPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_prosesPropertyChange
         // TODO add your handling code here:
     }//GEN-LAST:event_prosesPropertyChange
+
+    private void regulerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regulerActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_regulerActionPerformed
 
     /**
      * @param args the command line arguments
